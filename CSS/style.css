@@ -1,9 +1,25 @@
-body{
-    background-color: black;
+@import url('https://fonts.googleapis.com/css2?family=Pinyon+Script&display=swap');
+
+body {
+    background-color: aqua;
 }
-h1{
-    color: white;
+h2.class  {
+    font-family: "Pinyon Script";
     text-align: center;
-    font-size: 100px;
-    font-family: cursive;
+    font-size: 28px;
+    text-shadow: -8px 5px 5px greenyellow;
+    font-style: italic;
+}
+
+.class2 {
+    text-align: center;
+    line-height: 200%;
+    background-color: aquamarine;
+    margin: -8px -8px;
+}
+p.class3    {
+    text-align: justify;
+    font-family: "Pinyon Script";
+    font-weight: bold;
+    font-size: 20px;
 }

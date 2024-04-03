@@ -1,0 +1,9 @@
+h1 {
+    text-shadow: 5px 5px 5px aqua;
+}
+p {
+    line-height: 200%;
+}
+span {
+    font-weight: 900;
+}
