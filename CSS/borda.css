@@ -1,0 +1,18 @@
+*   {
+    font-size: 70px;
+}
+
+h1  {
+    border-top: 5px dotted cadetblue;
+    border-right: 5px dotted cadetblue;
+    border-left: 5px dotted cadetblue;
+    border-bottom: 5px dotted cadetblue;
+    text-align: center;
+    border-radius: 20px;
+}
+h2  {
+    border: 8px;
+    border-style: dashed;
+    text-align: center;
+    border-color: royalblue;
+}
