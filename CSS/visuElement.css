@@ -1,0 +1,19 @@
+*   {
+    line-height: 200%;
+}
+body    {
+    background-image: url(../IMG/thumb-1920-641968.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+section {
+    height: 400vh;
+}
+p   {
+    text-align: justify;
+}
+figure  {
+    text-align: center;
+}
