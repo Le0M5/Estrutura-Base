@@ -1,0 +1,22 @@
+#activity  {
+    display: inline-block;
+    margin-left: 20px;
+    padding: 0;
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color: black;
+    color: white;
+    border-bottom: 5px solid rgba(255, 0, 0, 0.721);
+    border-top: 2px dotted rgba(255, 0, 0, 0.721);
+    border-right: 2px solid rgba(255, 0, 0, 0.721);
+    border-left: 2px solid rgba(255, 0, 0, 0.721);
+}
+p   {
+    margin: 0;
+    padding: 0;
+    font-size: 12px;
+}
+h2  {
+    margin: 0;
+    padding: 0;
+}
