@@ -1,0 +1,57 @@
+*   {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* Estilos padrão para todos os dispositivos */
+div {
+    height: 400px;
+    width: 400px;
+    background-color: black;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+body    {
+    background-color: aquamarine;
+    transition: background-color 0.5s ease;
+}
+h1 {
+    outline: none;
+    text-transform: uppercase;
+    color: white;
+}
+h1::before{
+    content: "OLA";
+}
+/* Estilos específicos para dispositivos com largura de tela menor ou igual a 600px */
+@media screen and (max-width: 600px) {
+    body {
+        background-color: blue;
+    }
+    h1::before{
+        content: "OLAqweqwe";
+    }
+}
+/* Estilos específicos para dispositivos com largura de tela entre 601px e 900px */
+@media screen and (min-width: 601px) and (max-width: 900px) {
+    body {
+        background-color: green;
+    }
+    h1::before{
+        content: "OLAasd";
+    }
+}
+/* Estilos específicos para dispositivos com largura de tela maior que 900px */
+@media screen and (min-width: 901px) and (max-width: 1600px) {
+    body {
+        background-color: yellow;
+    }
+    h1::before{
+        content: "OLAaa";
+    }
+}
