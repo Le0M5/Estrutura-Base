@@ -1,0 +1,110 @@
+.container  {
+    height: 100vh;
+    width: 100%;
+    /* grid-auto-columns: 500px;
+    grid-auto-rows: 10px; */
+    display: grid;
+    grid-template-columns: repeat(4, 15%);
+    grid-template-rows: repeat(4, 15%);
+    /* grid-template-areas:
+    "orange orange orange orange"
+    "yellow green green black"
+    "yellow green green black"
+    "gray gray gray gray"
+    ; */
+    gap: 100px 100px;
+    /* column-gap: 10px;
+    row-gap: 10px; */
+    place-content: center center;
+    /* grid-auto-flow: dense; */
+    margin-bottom: 300px;
+}
+
+.container2 {
+    height: 100vh;
+    width: 100%;
+    display: grid;
+    place-content: center center;
+    grid-template-columns: repeat(5, 10%);
+    grid-template-rows: repeat(5, 10%);
+    grid-template-areas: 
+    "aqua aqua aqua aqua aqua"
+    "red red red red red"
+    "darkcyan darkcyan darkcyan darkcyan darkcyan"
+    "darkviolet darkviolet darkviolet darkviolet darkviolet"
+    "violet violet violet violet violet"
+    ;
+}
+
+.border {
+    border: 5px solid;
+}
+
+.box1    {
+    background-color: orange;
+    /* grid-area: orange; */
+    grid-column: 1/5;
+    grid-row: 1/2;
+    /* place-self: flex-start center; */
+}
+
+.box2    {
+    background-color: yellow;
+    /* grid-area: yellow; */
+    grid-column: 1/2;
+    grid-row: 2/4;
+}
+
+.box3    {
+    background-color: green;
+    /* grid-area: green; */
+    grid-column: 2/4;
+    grid-row: 2/4;
+}
+
+.box4    {
+    background-color: gray;
+    /* grid-area: gray; */
+    grid-column: 1/5;
+    grid-row: 4/5;
+}
+
+.box5   {
+    background-color: black;
+    /* grid-area: black; */
+    grid-column: 4/5;
+    grid-row: 2/4;
+}
+
+/* DIV ABAIXO */
+
+.box6   {
+    background-color: aqua;
+    grid-area: aqua;
+}
+
+.box7   {
+    background-color: red;
+    grid-area: red;
+}
+
+.box8   {
+    background-color: darkcyan;
+    grid-area: darkcyan;
+}
+
+.box9   {
+    background-color: darkviolet;
+    grid-area: darkviolet;
+}
+
+.box10  {
+    background-color: violet;
+    grid-area: violet;
+}
+
+hr  {
+    height: 50px;
+    border: 0;
+    border-bottom: 5px solid;
+}

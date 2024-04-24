@@ -1,0 +1,40 @@
+.container  {
+    height: 800px;
+    width: 800px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    grid-template-areas: 
+    "header header header header"
+    "campo1 campo1 campo2 campo2"
+    "campo3 campo3 campo4 campo4"
+    ;
+    place-content: center center;
+    place-items: center center;
+    border: 1px solid;
+}
+
+.box1   {
+    grid-area: header;
+    background-color: blue;
+}
+
+.box2   {
+    grid-area: campo1;
+    background-color: aquamarine;
+}
+
+.box3   {
+    grid-area: campo2;
+    background-color: darkcyan;
+}
+
+.box4   {
+    grid-area: campo3;
+    background-color: violet;
+}
+
+.box5   {
+    grid-area: campo4;
+    background-color: indianred;
+}

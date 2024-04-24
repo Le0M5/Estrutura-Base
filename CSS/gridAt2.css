@@ -1,0 +1,52 @@
+.container  {
+    height: 100vh;
+    display: grid;
+    grid-template-columns: repeat(5, 15%);
+    grid-template-rows: repeat(4, 15%);
+    place-items: center center;
+    place-content: center center;
+    grid-template-areas: 
+    "h1 h1 h1 h1 h1"
+    "h2 h2 h2 h3 h3"
+    "h4 h4 h4 h4 h4"
+    "h5 h5 h6 h6 h6"
+    ;
+    gap: 5px;
+}
+
+.box{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.box1   {
+    background-color: rgb(218, 150, 24);
+    grid-area: h1;
+}
+
+.box2   {
+    background-color: rgb(202, 21, 85);
+    grid-area: h2;
+}
+
+.box3   {
+    background-color: aqua;
+    grid-area: h3;
+}
+
+.box4   {
+    background-color: rgb(62, 252, 85);
+    grid-area: h4;
+}
+
+.box5   {
+    background-color: rgb(37, 79, 229);
+    grid-area: h5;
+}
+
+.box6   {
+    background-color: rgb(0, 132, 82);
+    grid-area: h6;
+}

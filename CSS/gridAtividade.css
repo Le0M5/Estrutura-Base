@@ -1,0 +1,70 @@
+.container {
+    display: grid;
+    height: 100vh;
+    font-size: 30px;
+    color: black;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: repeat(6, 1fr);
+    grid-template-areas:
+        "Header Header Header Header Header Header"
+        "gradient Main Main Main Main Main"
+        "Gray Gray Gray Gray Gray Peru"
+        "AliceBlue AliceBlue AliceBlue AliceBlue AliceBlue AliceBlue"
+        "Coral Coral DarkOliveGreen DarkOliveGreen DarkOliveGreen DarkOliveGreen "
+        "DarkKhaki DarkKhaki DarkKhaki DarkKhaki DarkCyan DarkCyan"
+    ;
+    gap: 5px;
+}
+
+.box1 {
+    grid-area: Header;
+    background-color: blue;
+
+}
+
+.box2 {
+    grid-area: Main;
+    background-color: aqua;
+}
+
+.box3 {
+    grid-area: Gray;
+    background-color: gray;
+}
+
+.box4 {
+    grid-area: Peru;
+    background-color: peru;
+}
+
+.box5 {
+    grid-area: AliceBlue;
+    background-color: aliceblue;
+}
+
+.box6 {
+    grid-area: Coral;
+    background-color: coral;
+}
+
+.box7 {
+    grid-area: DarkOliveGreen;
+    background-color: darkolivegreen;
+}
+
+.box8 {
+    grid-area: DarkKhaki;
+    background-color: darkkhaki;
+}
+
+.box9 {
+    grid-area: DarkCyan;
+    background-color: darkcyan;
+}
+
+.box10 {
+    display: flex;
+    width: 100%;
+    grid-area: gradient;
+    background-color: gainsboro;
+}
